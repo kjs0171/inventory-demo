@@ -49,7 +49,7 @@ spec:
         app: inventory
     spec:
       containers:
-        - name: inventory_jaesang
+        - name: inventory
           image: jaesang/kosta8
           envFrom:
             - configMapRef:
