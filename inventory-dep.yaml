@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: inventory
-          image: jaesang/kosta8:22
+          image: jaesang/kosta8
           envFrom:
             - configMapRef:
                 name: mariadb-cm
